@@ -9,9 +9,11 @@ As part of the User Experience Design course final project, this online portfoli
 
 ## 2. Implementation
 - **Setup**: Initialized a GitHub repository named 'mtm6201-final' and set up the project structure with folders for HTML, CSS, images, and other assets.
-- **Bootstrap Integration**: Integrated Bootstrap into the project to leverage its grid system, components, and utilities for a responsive design.
-- **HTML & CSS**: Developed the HTML structure and styled it using both Bootstrap classes and custom CSS to match the design specifications.
-- **Accessibility**: Ensured all HTML elements followed semantic conventions and included appropriate ARIA roles to enhance accessibility.
+- **Collaboration of Bootstrap**: Utilized Bootstrap's grid structure, elements, and utilities to utilize the project's responsive design.
+- **HTML & CSS**: To conform to the design requirements, the HTML structure was created and decorated using custom CSS and Bootstrap classes.
+**Accessibility**: To improve accessibility, I made sure all HTML elements adhered to semantic norms and had the proper ARIA responsibilities.
+
+
 
 ## Challenges and Solutions
 ### Challenge 1: Responsive Design
