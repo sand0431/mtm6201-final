@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #080808;
+    --secondary-color: #2ecc71;
+    --font-size-base: 16px;
+}
+
+body {
+    font-size: var(--font-size-base);
+    color: var(--primary-color);
+    background-color: #bacff0;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: #080808;
+    display: flex;
+}
+
+
+.container {
+    background-color: rgb(244, 212, 217);
+    width: 90%;
+  margin-left: 3em;
+  margin-right: 5em;
+}
+
+.my-element {
+    display: block;
+    margin: 0 1rem;
+    text-align: center;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+/* adjust styles for smaller screens */
+@media (min-width: 768px) {
+    .custom-class {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .custom-class {
+        font-size: 2rem;
+    }
+}
+
+.nav-item {
+    display: flex;
+    font-size: 4em;
+    margin: 1rem;
+    
+}
+
+.navbar-nav { 
+    text-align: center;
+    margin-left: 12em;
+    
+}
+.col-md-4 {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 3px;
+   
+}
+
+.col-md-4 img {
+   width: 40%; /*adjust as needed */
+   height: 20%; /*adjust as needed */
+   border: 5px solid #0000;
+   background-color: black;
+   margin-bottom: 10px;
+ 
+  
+}
+
+p {
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+
+@media (max-width: 768px) {
+    /* adjust style for small screen */
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.h1 {
+    text-align: center;
+    color: black;  
+    font-size: 4em;
+}
+
+.footer img {
+    width: 7%;
+    display: inline-block;
+    padding: 0.5em;
+    
+}
+
+.footer li{
+    display: block;
+    justify-content: space-between;
+    margin-left: 4em;
+}
+ .mt-5 ul li {
+    font-size: 1.8em;
+}
+
+.mt-5 h2 {
+    font-size: 3em;
+}
+
+.btn {
+     margin-left: 7.5em;
+     margin-top: 3em; 
+    font-size: 1.5em;
+    background-color: #3c72ca;
+    text-align: center;
+}
+
+footer li {
+    text-align: center;
+   
+   
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+
